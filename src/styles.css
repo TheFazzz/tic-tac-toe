@@ -2,48 +2,11 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: sans-serif;
-    margin: 20px;
-    padding: 0;
-  }
-  
   h1 {
     margin-top: 0;
-    font-size: 22px;
-  }
-  
-  h2 {
-    margin-top: 0;
-    font-size: 20px;
-  }
-  
-  h3 {
-    margin-top: 0;
-    font-size: 18px;
-  }
-  
-  h4 {
-    margin-top: 0;
-    font-size: 16px;
-  }
-  
-  h5 {
-    margin-top: 0;
-    font-size: 14px;
-  }
-  
-  h6 {
-    margin-top: 0;
-    font-size: 12px;
-  }
-  
-  code {
-    font-size: 1.2em;
-  }
-  
-  ul {
-    padding-inline-start: 20px;
+    font-size: 32px;
+    color: #CCC9DC;
+    text-align: center;
   }
   
   * {
@@ -54,21 +17,23 @@
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
+    background-color: #1B2A41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: #324A5F;
+    border: 2px solid black;
     float: left;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
+    height:120px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 120px;
   }
   
   .board-row:after {
@@ -79,13 +44,21 @@
   
   .status {
     margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #CCC9DC;
+    text-align: center;
   }
-  .game {
-    display: flex;
-    flex-direction: row;
+
+  .restart {
+    padding: 10px 20px;
+    background-color: #336d35;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
   }
   
-  .game-info {
-    margin-left: 20px;
+  .board {
+    border: 3px solid black;
   }
-  
