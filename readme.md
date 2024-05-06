@@ -26,9 +26,11 @@ npm start
 ```
 * ctrl-c to stop server
 
-## Help
+## References
 
-Any advise for common problems or issues.
+* https://react.dev/learn/tutorial-tic-tac-toe
+
+* https://coolors.co/
 
 
 ## Authors
